@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+websockets
+PyYAML
+httpx
+pydantic
+tenacity
+loguru
+asyncio_throttle
+aiohttp
+openai # For Perplexity AI (OpenAI compatible API)
+google-adk
+python-a2a

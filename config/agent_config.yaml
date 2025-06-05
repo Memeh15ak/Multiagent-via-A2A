@@ -1,0 +1,20 @@
+# config/agent_config.yaml
+agents:
+  weather_agent:
+    id: "weather_agent_001"
+    name: "Weather Agent"
+    description: "Provides current weather info and forecasts."
+    a2a_endpoint: "http://127.0.0.1:5211/a2a"  # Changed from 5001 to 5011
+    tool_name: "weather_tool"
+  web_search_agent:
+    id: "web_search_agent_001"
+    name: "Web Search Agent"
+    description: "Performs real-time web searches."
+    a2a_endpoint: "http://127.0.0.1:5513/a2a"  # Changed from 5002 to 5012
+    tool_name: "web_search_tool"
+  news_agent:
+    id: "news_agent_001"
+    name: "News Agent"
+    description: "Fetches latest news articles by keyword/category."
+    a2a_endpoint: "http://127.0.0.1:5313/a2a"  # Changed from 5003 to 5013
+    tool_name: "news_tool"
